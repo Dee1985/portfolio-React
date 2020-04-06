@@ -5,6 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import MenuIcon from '@material-ui/icons/Menu';
 import IconButton from '@material-ui/core/IconButton';
+import Tabs from './Tabs';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -36,6 +37,7 @@ export default function Navbar() {
 					<Typography variant="h6" className={classes.title}>
 						AyDy Burling
 					</Typography>
+					<Tabs />
 				</Toolbar>
 			</AppBar>
 		</div>
